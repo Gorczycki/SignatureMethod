@@ -1,1 +1,13 @@
+From the paper "A Primer on the Signature Method in Machine Learning" we propose the use case for modeling option pricing using the signature method and Long Short-Term Memory(LSTM) network.
+We can choose an API that contributes historical option price time-series data, and use our LSTM to learn the patterns in the option data.
+
+1. We apply the signature method to see our patterns and key parts.
+2. We can then split the data into training/testing.
+3. We then incorporate the LSTM network to analyze the movements of price, and find accuracy.
+
+This can be performed in Pytorch for the (RNN) LSTM.
+
+It may be redundant to use both the Signature Method and LSTM.
+
+We can compare our accuracy with use of the black-scholes method of options pricing, and train on seperate new data to test.
 
